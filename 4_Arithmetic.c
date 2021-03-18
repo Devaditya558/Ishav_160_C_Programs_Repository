@@ -2,26 +2,26 @@
 int main(){
     char operator;
     double a, b;
-    printf("Enter an operator (+, -, *, /):");
-    scanf("%c", &operator);
+    printf("Enter an operator (+, -, *, /):"); //It will print the operater to be entered by user.
+    scanf("%c", &operator); //It will scan the operater entered by user.
     printf("Enter two operands:");
-    scanf("%lf %lf",&a, &b);
+    scanf("%lf %lf",&a, &b); //It will scan the numbers entered by user.
     switch(operator)
     {
         case '+':
-            printf("%.lf + %.lf = %.lf",a, b, a+b);
+            printf("%.2lf + %.2lf = %.2lf",a, b, a+b);
             break;
 
         case '-':
-            printf("%.lf - %.lf = %.lf",a, b, a-b);
+            printf("%.2lf - %.2lf = %.2lf",a, b, a-b);
             break;
 
         case '*':
-            printf("%.lf * %.lf = %.lf",a, b, a*b);
+            printf("%.2lf * %.2lf = %.2lf",a, b, a*b);
             break;
 
         case '/':
-            printf("%.lf / %.lf = %.lf",a, b, a/b);
+            printf("%.2lf / %.2lf = %.2lf",a, b, a/b);
             break;
     printf("Error encountered by the input values");
     }
