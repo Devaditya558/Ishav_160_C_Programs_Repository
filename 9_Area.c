@@ -26,5 +26,5 @@ int main(){
 		default:
             printf("Error eccoured, Please enter the values correctly!");	
 	}
-	return 0;
+	return 0; 
 }
