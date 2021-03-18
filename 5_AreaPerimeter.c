@@ -4,7 +4,7 @@
 //Perimeter of Circle: 2*(22/7)*r: radius
 //Area of Square: side*side: side
 //Area of Rectangle: Length * Breadth: Length, Breadth
-//Area of Circle: (22/7)*r*r: radius
+//Area of Circle: (22/7)*r*r: radius 
 #include <stdio.h>
 #include <stdio.h>
 #include <math.h>
